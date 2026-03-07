@@ -604,3 +604,32 @@ svg path{
         .third span:nth-child(6) { animation: lastLetter 4s 5.00s cubic-bezier(.22,.61,.36,1) forwards; }
         .third span:nth-child(7) { animation: lastLetter 4s 5.10s cubic-bezier(.22,.61,.36,1) forwards; }
 
+
+
+
+
+
+
+
+
+
+    footer{
+     
+        padding:20px 40px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        color: white;
+        position: absolute;
+        background-position: center;
+        bottom: 0;
+        z-index: 20;
+        height: 10%;
+        width: 100%;
+        /* overflow: hidden; */
+        background:linear-gradient(to top, black ,rgba(0, 0, 255, 0));
+    }
+    footer svg{
+        height: 20px;
+    }
+
